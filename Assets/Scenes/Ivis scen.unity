@@ -259,7 +259,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -283,9 +283,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddc5431360b60b849bc2299819f9ec60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spawner
-  fireButton: 0
+  fireButton: 323
   fireDirection: {x: 0, y: 4}
-  coolDown: 0
+  coolDown: 0.1
   prefab: {fileID: 6666668813483194042, guid: 0c045484d1711174e83c9f890193f4a3, type: 3}
   spawnLocation: {fileID: 0}
 --- !u!212 &1185889056

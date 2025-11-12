@@ -42,13 +42,13 @@ public class PlayerMovement : MonoBehaviour
         float verticalBound = Camera.main.orthographicSize - playerHalfSize.y;
         float horizontalBound = Camera.main.orthographicSize * Camera.main.aspect - playerHalfSize.x;
 
-        if (transform.position.x < horizontalBound && (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D)))
+        if (transform.position.x < horizontalBound && (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)))
         {
-            direction.x = 1;
+            direction.y = 1;
         }
-        if (transform.position.x > -horizontalBound && (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A)))
+        if (transform.position.x > -horizontalBound && (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S)))
         {
-            direction.x = -1;
+            direction.y = -1;
         }
 
         rigidBody.linearVelocity = direction.normalized * movementSpeed;

@@ -1,10 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
-<<<<<<< HEAD
---- !u!1001 &336605780040076372
-=======
---- !u!1001 &5795714931323168991
->>>>>>> e96d77d54c2338cd5bee435de308b1f2bde6f0bd
+--- !u!1001 &5343414193679815105
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -18,21 +14,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 749f2cca9605e7845b3281ef3a836a51, type: 3}
       propertyPath: m_LocalScale.x
-<<<<<<< HEAD
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 749f2cca9605e7845b3281ef3a836a51, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 749f2cca9605e7845b3281ef3a836a51, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.63297
-      objectReference: {fileID: 0}
-    - target: {fileID: 7878350319992209165, guid: 749f2cca9605e7845b3281ef3a836a51, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.83955
-=======
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 749f2cca9605e7845b3281ef3a836a51, type: 3}
@@ -41,12 +22,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 749f2cca9605e7845b3281ef3a836a51, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.098603
+      value: -3.87074
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 749f2cca9605e7845b3281ef3a836a51, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.62
->>>>>>> e96d77d54c2338cd5bee435de308b1f2bde6f0bd
+      value: 6.53856
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 749f2cca9605e7845b3281ef3a836a51, type: 3}
       propertyPath: m_LocalPosition.z

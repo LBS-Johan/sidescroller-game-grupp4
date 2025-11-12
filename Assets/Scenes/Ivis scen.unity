@@ -420,7 +420,7 @@ MonoBehaviour:
   fireButton: 323
   fireDirection: {x: 0, y: 4}
   coolDown: 0.1
-  prefab: {fileID: 6666668813483194042, guid: 0c045484d1711174e83c9f890193f4a3, type: 3}
+  prefab: {fileID: 6666668813483194042, guid: 0552ed50486224d4fa9186f999011b64, type: 3}
   spawnLocation: {fileID: 0}
 --- !u!212 &1185889056
 SpriteRenderer:

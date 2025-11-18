@@ -63,5 +63,133 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: d6924ca9e0e7ed94a9d5356b9a01aca8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5117061972026373539}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: d6924ca9e0e7ed94a9d5356b9a01aca8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5977139830803866349}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: d6924ca9e0e7ed94a9d5356b9a01aca8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6032066991375904945}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: d6924ca9e0e7ed94a9d5356b9a01aca8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -6740689842171752361}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: d6924ca9e0e7ed94a9d5356b9a01aca8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4702561462390946591}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: d6924ca9e0e7ed94a9d5356b9a01aca8, type: 3}
+--- !u!1 &3598599452512597956 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: d6924ca9e0e7ed94a9d5356b9a01aca8, type: 3}
+  m_PrefabInstance: {fileID: 5857129720311865516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5117061972026373539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3598599452512597956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2502dc43cfdbfc40b80d3044a4f574c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
+  maxHealth: 1
+  hurtSound: {fileID: 0}
+  deathObject: {fileID: 0}
+--- !u!114 &5977139830803866349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3598599452512597956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 759d9f5856801094aa90e748f7c294ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HurtPlayer
+  hurtAmount: 200000
+  hurtSound: {fileID: 0}
+  deathObject: {fileID: 0}
+--- !u!50 &6032066991375904945
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3598599452512597956}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &-6740689842171752361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3598599452512597956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fad2e2b23672224facc6828acf7738f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  velocity: {x: -0.7, y: 0}
+  zigzagTime: 1.7
+  zigzagdirection: 0
+--- !u!58 &4702561462390946591
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3598599452512597956}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.0050000027, y: 0.08}
+  m_Radius: 0.075

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9a6a5b992cde08c44a4f8f86f4d34561
+guid: a787063aeb2aa4444b6f002887795471
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -81,7 +81,7 @@ ScriptedImporter:
     mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
-    generateAnimationClips: 0
+    generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
     generateIndividualEvents: 1
@@ -96,13 +96,13 @@ ScriptedImporter:
     mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
-    generateAnimationClips: 0
+    generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638990739397048943
+  platformSettingsDirtyTick: 638991523090479657
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -127,10 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: "Stark fiende 2 Epic grim reaper som def sl\xE5r allting som n\xE5gonsin
-      existerat"
+  - name: GolvLava
     originalName: 
-    pivot: {x: 0.5, y: -0.11538462}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -138,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 24
-      height: 26
-    spriteID: 565ca19756103764188e9157f9ca374e
+      width: 32
+      height: 32
+    spriteID: afb38c2bb3798f345a50947a53581262
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -154,27 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 2978809009
+      value0: 3723106112
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: "Stark fiende 2 Epic grim reaper som def sl\xE5r allting som n\xE5gonsin
-      existerat"
+    name: GolvLava
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: "Stark fiende 2 Epic grim reaper som def sl\xE5r allting som n\xE5gonsin
-        existerat"
+    - name: GolvLava
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 4
-        y: 3
-        width: 24
-        height: 26
-      spriteId: 565ca19756103764188e9157f9ca374e
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      spriteId: afb38c2bb3798f345a50947a53581262
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -209,4 +206,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 32, y: 32}
-  previousTextureSize: {x: 32, y: 64}
+  previousTextureSize: {x: 64, y: 64}

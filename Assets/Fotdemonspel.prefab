@@ -112,9 +112,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 759d9f5856801094aa90e748f7c294ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HurtPlayer
-  hurtAmount: 200000
+  hurtAmount: 1
   hurtSound: {fileID: 0}
-  deathObject: {fileID: 0}
+  deathObject: {fileID: 3151770517851689948, guid: 854ac1a09491d7d42a8511c2bfc0047d, type: 3}
 --- !u!50 &-8397948048249078265
 Rigidbody2D:
   serializedVersion: 5

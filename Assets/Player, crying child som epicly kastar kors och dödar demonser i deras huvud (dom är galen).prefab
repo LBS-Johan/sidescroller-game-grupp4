@@ -114,7 +114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   maxHealth: 1
   hurtSound: {fileID: 0}
-  gameOverSceneName: 
+  gameOverSceneName: Game over scene
 --- !u!61 &-2883353978561768989
 BoxCollider2D:
   m_ObjectHideFlags: 0

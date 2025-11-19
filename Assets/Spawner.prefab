@@ -33,7 +33,7 @@ Transform:
   m_GameObject: {fileID: 2859966792790566737}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.79, y: 3, z: 0}
+  m_LocalPosition: {x: 13, y: 2.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fad2e2b23672224facc6828acf7738f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  velocity: {x: 0, y: 6}
+  velocity: {x: 0, y: 7}
   zigzagTime: 1
   zigzagdirection: 0
 --- !u!114 &881390530978117350
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Spawner
   fireButton: 0
   fireDirection: {x: 0, y: 0}
-  coolDown: 50
+  coolDown: 40
   prefab: {fileID: 3227395776115825799, guid: 64eaac122fa70b64db5bd11fad32e7de, type: 3}
   spawnLocation: {fileID: 0}
 --- !u!114 &3669717854962750654
@@ -187,7 +187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Spawner
   fireButton: 0
   fireDirection: {x: 0, y: 0}
-  coolDown: 7
+  coolDown: 7.2
   prefab: {fileID: 3598599452512597956, guid: 388c9e5b8a913794abc4c908d601ae11, type: 3}
   spawnLocation: {fileID: 0}
 --- !u!114 &2401815226631706057
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Spawner
   fireButton: 0
   fireDirection: {x: 0, y: 0}
-  coolDown: 3.5
+  coolDown: 6.1
   prefab: {fileID: 3071421644828247721, guid: 609a2bad43da5584c9788d3705c01d16, type: 3}
   spawnLocation: {fileID: 0}
 --- !u!114 &1795101530854357265

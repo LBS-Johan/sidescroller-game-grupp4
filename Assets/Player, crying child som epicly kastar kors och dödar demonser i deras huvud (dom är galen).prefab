@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14747414387c4bf4389d1f07738460d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  maxHealth: 1
+  maxHealth: 100
   hurtSound: {fileID: 0}
   gameOverSceneName: Game over scene
 --- !u!61 &-2883353978561768989

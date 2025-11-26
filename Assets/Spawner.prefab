@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 7258533286031869735}
   - component: {fileID: 2401815226631706057}
   - component: {fileID: 1795101530854357265}
+  - component: {fileID: 7696243844984086615}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -156,6 +157,7 @@ MonoBehaviour:
   coolDown: 40
   prefab: {fileID: 3227395776115825799, guid: 64eaac122fa70b64db5bd11fad32e7de, type: 3}
   spawnLocation: {fileID: 0}
+  timer: 0
 --- !u!114 &3669717854962750654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,6 +175,7 @@ MonoBehaviour:
   coolDown: 8
   prefab: {fileID: 1967623642228196999, guid: 9b03753c19fa3c3449a34c8a102a5883, type: 3}
   spawnLocation: {fileID: 0}
+  timer: 0
 --- !u!114 &7258533286031869735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,6 +193,7 @@ MonoBehaviour:
   coolDown: 7.2
   prefab: {fileID: 3598599452512597956, guid: 388c9e5b8a913794abc4c908d601ae11, type: 3}
   spawnLocation: {fileID: 0}
+  timer: 0
 --- !u!114 &2401815226631706057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,6 +211,7 @@ MonoBehaviour:
   coolDown: 6.1
   prefab: {fileID: 3071421644828247721, guid: 609a2bad43da5584c9788d3705c01d16, type: 3}
   spawnLocation: {fileID: 0}
+  timer: 0
 --- !u!114 &1795101530854357265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,3 +229,17 @@ MonoBehaviour:
   coolDown: 45
   prefab: {fileID: 2916485737106362514, guid: 238c0b11885a25446b1232b8999da5f8, type: 3}
   spawnLocation: {fileID: 0}
+  timer: 0
+--- !u!114 &7696243844984086615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2859966792790566737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77cc25d53f7a54c429f69df38beac450, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Selfdestruct
+  time: 180

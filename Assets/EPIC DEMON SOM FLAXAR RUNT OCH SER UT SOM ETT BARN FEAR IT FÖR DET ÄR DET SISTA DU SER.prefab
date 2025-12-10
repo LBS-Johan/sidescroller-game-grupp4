@@ -175,9 +175,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fad2e2b23672224facc6828acf7738f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  velocity: {x: -1, y: 0}
-  zigzagTime: 1
-  zigzagdirection: 1
+  velocity: {x: -0.1, y: 0}
+  zigzagTime: 0
+  zigzagdirection: 0
 --- !u!114 &-4029967389048981642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,7 +192,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 50
   hurtSound: {fileID: 0}
-  deathObject: {fileID: 0}
+  deathObject: {fileID: 5677541683996027870, guid: 50bde48fa22efe645a71fdd79097d5b5, type: 3}
 --- !u!114 &4742639734559021161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,4 +207,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HurtPlayer
   hurtAmount: 100
   hurtSound: {fileID: 0}
-  deathObject: {fileID: 5677541683996027870, guid: 50bde48fa22efe645a71fdd79097d5b5, type: 3}
+  deathObject: {fileID: 0}

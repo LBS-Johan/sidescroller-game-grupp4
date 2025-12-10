@@ -363,24 +363,6 @@ MonoBehaviour:
   prefab: {fileID: 1230676557868425815, guid: e7ab05008da1d0c4689bbd8d69e78985, type: 3}
   spawnLocation: {fileID: 0}
   timer: 180
---- !u!114 &895218956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 895218943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddc5431360b60b849bc2299819f9ec60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Spawner
-  fireButton: 0
-  fireDirection: {x: 0, y: 0}
-  coolDown: 0
-  prefab: {fileID: 0}
-  spawnLocation: {fileID: 0}
-  timer: 0
 --- !u!114 &895218957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -681,7 +663,12 @@ PrefabInstance:
       propertyPath: timer
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7696243844984086615, guid: 812de8884c8db8d43b1a6a08c0ce9638, type: 3}
+      propertyPath: time
+      value: 181
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7696243844984086615, guid: 812de8884c8db8d43b1a6a08c0ce9638, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -691,9 +678,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2859966792790566737, guid: 812de8884c8db8d43b1a6a08c0ce9638, type: 3}
       insertIndex: -1
       addedObject: {fileID: 895218957}
-    - targetCorrespondingSourceObject: {fileID: 2859966792790566737, guid: 812de8884c8db8d43b1a6a08c0ce9638, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 895218956}
     - targetCorrespondingSourceObject: {fileID: 2859966792790566737, guid: 812de8884c8db8d43b1a6a08c0ce9638, type: 3}
       insertIndex: -1
       addedObject: {fileID: 895218955}

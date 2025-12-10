@@ -360,7 +360,7 @@ MonoBehaviour:
   fireButton: 0
   fireDirection: {x: 0, y: 0}
   coolDown: 1e+18
-  prefab: {fileID: 0}
+  prefab: {fileID: 1230676557868425815, guid: e7ab05008da1d0c4689bbd8d69e78985, type: 3}
   spawnLocation: {fileID: 0}
   timer: 180
 --- !u!114 &895218956
